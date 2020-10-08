@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 alteracao dddddd
+=======
+alteracao bbbbb
+>>>>>>> 09f253645a2e92d0a5fbc15c0c1dee2faa14a35d
