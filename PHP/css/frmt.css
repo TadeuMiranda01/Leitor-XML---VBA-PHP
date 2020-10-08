@@ -1,0 +1,20 @@
+body{
+	background-color:#E8E8E8;
+	font-family: Arial; 
+}
+
+#txt_input{
+	padding: 0px 30px 0px 0px;
+	border:solid 1px grey;
+	border-radius:10px;
+	background-color:#FFF0F5; 
+	cursor: pointer;
+	box-shadow: 2px 2px 10px #828282;
+}
+
+#barra_separa{
+	margin-top: 30px;
+	background-color:grey; 
+	height: 1px;
+	width:100%;
+}
