@@ -15,32 +15,39 @@
 		<h1>Importação Arquivo XML</h1>
 			<div class='row'>
 				<div class='grupo_cxs'>								
-						<input id='txt_input'class='cx_texto' type="file">
-				</div>		
-			</div>	
-			<div class='row'>
+						<input id='txt_input' name='txt_input' class='cx_texto' type="file">
+				</div>	
+			</div>		
+			<div class='row'>	
 				<div class='grupo_cxs'>								
 						<input class='config_btn' type="button" value='Ler Arquivo' id='btn_ler_arquivo'>
-						<input class='config_btn' type="button" value='Limpar'>
+						<input class='config_btn' type="button" value='Limpar' id='btn_limpar'>
 				</div>		
-			</div>			
-
+			</div>	
 
 			<div id='barra_separa'></div>	
 
-			<table>
-				<tr>
-				    <th>Nome</th>
-				    <th>Tipo / Hierarquia</th>
-				    <th>Valor Tag</th>
-				</tr>
-				
-				<tr>
-					<td>0000</td>
-					<td>0000</td>
-					<td>0000</td>
-				</tr>	
-			</table>
+			
+				<h1 id='titulo_mapeamento'>Mapeamento de TAGs</h1>	
+
+					<div class="row frmt_grupo_pesquisa">	
+						<div class="grupo_cxs col-4" id="grupo_cx_pesquisar">
+							<label class="titulo_txt">Pesquisar Tag</label>
+							<input class="cx_text" type="text" id="cx_pesquisa">											
+						</div>	
+						<div class='grupo_cxs'>								
+							<input class='config_btn' type="button" value='Pesquisar' id='btn_pesquisar'>						
+					</div>		
+				</div>
+
+				<div class='container_table'>
+						<table class='tabela_fretes_demo frmt_tabela_fretes'>	
+						</table>
+				</div>	
+
+		
+
+			<div id='msg_erro'>Erro personalizado</div>
 
 	</form>
 

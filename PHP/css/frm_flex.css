@@ -7,9 +7,15 @@
 	border:solid 1px #CFCFCF;
 	border-radius: 10px;
 	margin:50px;
-	margin-top: 100px;
+	margin-top:50px;
 	padding: 30px;
 	z-index: 0;
+}
+
+.titulo_txt {
+color:#363636;
+font-weight: bold;
+margin-top: 2px;
 }
 
 .cx_text{	
@@ -39,7 +45,7 @@
 }
 
 .row{
-width:100%;
+ width:100%;
 }
 
 .col-1 {
@@ -58,7 +64,7 @@ width:100%;
   -ms-flex: 0 0 29%;
   flex: 0 0 29%;
   max-width: 29%;
-}
+ }
 
 .col-4 {
   -ms-flex: 0 0 45%;
