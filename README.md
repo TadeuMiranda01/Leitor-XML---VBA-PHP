@@ -27,3 +27,7 @@ Caso tenha outras tags "filhos" da tag pesquisada, será exibido uma caixa de op
 
 **APLICAÇÃO EM VBA**
 
+Para executar em vba, o processo é semelhante ao já realizado em PHP.  Selecione o arquivo e realize a leituraXML. 
+
+![image](https://user-images.githubusercontent.com/49642934/95818872-3aef0680-0cfb-11eb-9879-2480b11b223c.png)
+
