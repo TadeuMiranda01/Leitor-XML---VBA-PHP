@@ -46,13 +46,14 @@ border:solid 1px grey;
 border-radius:10px;
 max-height:1000px;
 background-color:white; 
-display: none;
+display: none; 
+
 }
 
 .frmt_tabela_fretes {
 	border:solid 1px grey;
 	margin: 10px;
-	border-radius: 30px;
+	border-radius: 0px 0px 30px 30px;
 
 
 }
@@ -65,6 +66,7 @@ display: none;
 	padding-left: 40px;
 	padding-right:40px;	
 	text-align: center;
+
 	
 }
 
@@ -117,17 +119,70 @@ background-color:rgba(240,240,240,1);
 	color:#E8E8E8;
 	font-weight: bold;
 	border-radius: 5px;
-	display: none;
+	display: none; 
 }
 
 .frmt_grupo_pesquisa{
 	margin-top: -25px;
 	margin-left: -15px;
 	margin-bottom: 30px;
-	display: none;
+	display: none; 
 	
 }
 
 #titulo_mapeamento{
+	display: none; 
+}
+
+#bloco_qtd_reg{
+	margin-left: 50px;
+	font-weight: bold;
+	display: none; 
+
+}
+
+#bloco_qtd_reg p{
+	display: inline;
+	color:#4F4F4F;
+}
+
+#total_qtd_reg{
+margin-left: 10px;
+font-weight: 500;	
+display: inline;
+}
+
+.titulo_retorno_tags{
+	display: inline-block;
+	font-weight: bold;
+	
+}
+
+.valor_retorno_tags{
+	display: inline-block;
+	margin-left: 10px;
+
+}
+
+.bloco_retorno_tags{
+	color:#4F4F4F;
+	margin-top: 5px;
 	display: none;
+}
+
+.retorno_tags{
+	margin-bottom: 30px;
+}
+
+#cx_subtag1 {
+	background-color:#B2DFEE;
+	cursor:pointer;
+
+}
+
+.grupo_sub_tag1{
+	margin-top: -20px;
+	margin-left: -15px;	
+	display: none;
+	
 }

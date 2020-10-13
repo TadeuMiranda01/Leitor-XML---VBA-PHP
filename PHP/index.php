@@ -37,15 +37,42 @@
 						</div>	
 						<div class='grupo_cxs'>								
 							<input class='config_btn' type="button" value='Pesquisar' id='btn_pesquisar'>						
-					</div>		
-				</div>
+						</div>		
+					</div>
+
+					<div class='row'>
+						<div class="grupo_cxs col-3 grupo_sub_tag1" >
+							<label class="titulo_txt">sub Tags</label>
+							<select class="cx_text" id="cx_subtag1">
+							</select>
+						</div>
+					</div>
+					<div class='row'>
+						<div class="grupo_cxs col-5 retorno_tags" >
+							<div class='bloco_retorno_tags'>
+								<div class='titulo_retorno_tags'>Nome Tag:</div><div class='valor_retorno_tags' id='valor_retorno_nome'>000</div>
+							</div>
+							<div class='bloco_retorno_tags'>
+								<div class='titulo_retorno_tags'>Tipo/Hierarquia:</div><div class='valor_retorno_tags' id='valor_retorno_tipo'>000</div>
+							</div>	
+							<div class='bloco_retorno_tags'>
+								<div class='titulo_retorno_tags'>Valor:</div><div class='valor_retorno_tags' id='valor_retorno_valorTag'>000</div>
+							</div>
+							<div class='bloco_retorno_tags'>
+								<div class='titulo_retorno_tags'>Total de Registros Listados:</div><div class='valor_retorno_tags' id='total_qtd_reg'>000</div>
+							</div>
+
+						</div>	
+					</div>
+
+				
 
 				<div class='container_table'>
-						<table class='tabela_fretes_demo frmt_tabela_fretes'>	
+						<table class='tabela_fretes_demo frmt_tabela_fretes'>
 						</table>
 				</div>	
 
-		
+
 
 			<div id='msg_erro'>Erro personalizado</div>
 
